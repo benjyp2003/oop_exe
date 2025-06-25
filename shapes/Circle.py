@@ -8,3 +8,6 @@ class Circle(Shape):
 
     def get_area(self):
         return math.pi * (self.width / 2) ** 2
+
+    def get_perimeter(self):
+        return 2 * math.pi * (self.width / 2)
